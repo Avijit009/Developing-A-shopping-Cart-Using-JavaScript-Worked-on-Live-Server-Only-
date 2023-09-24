@@ -1,0 +1,73 @@
+.checkout-grid {
+  display: grid;
+  /* Here, 1fr means the first column will take
+      up the remaining space in the grid. */
+  grid-template-columns: 1fr 350px;
+  column-gap: 12px;
+
+  /* Use align-items: start; to prevent the elements
+      in the grid from stretching vertically. */
+  align-items: start;
+}
+
+
+.checkout-grid {
+    grid-template-columns: 1fr;
+}
+
+
+.cart-item-container{
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 4px;
+  padding: 18px;
+}
+
+.cart-item-container {
+  margin-bottom: 12px;
+}
+
+
+.cart-item-details-grid {
+  display: grid;
+  /* 100px 1fr 1fr; means the 2nd and 3rd column will
+      take up half the remaining space in the grid
+      (they will divide up the remaining space evenly). */
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap: 25px;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 120px;
+
+  /* margin-left: auto;
+      margin-right auto;
+      Is a trick for centering an element horizontally
+      without needing a container. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-name {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.delete-link{
+  color: white;
+  background: rgb(209, 5, 5);
+  padding: 3px 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.delete-link:hover{
+  opacity: 80%;
+}
