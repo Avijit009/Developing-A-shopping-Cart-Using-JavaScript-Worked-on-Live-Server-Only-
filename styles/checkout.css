@@ -1,3 +1,14 @@
+span{
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+}
 .checkout-grid {
   display: grid;
   /* Here, 1fr means the first column will take
